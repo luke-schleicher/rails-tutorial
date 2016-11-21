@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
 
+  get 'static_pages/home'
+
+  get 'static_pages/help'
+
   Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/help'
+
     root 'application#hello'
   end
   # The priority is based upon order of creation: first created -> highest priority.
